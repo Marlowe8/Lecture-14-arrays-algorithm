@@ -51,10 +51,11 @@ int main(){
 	
 	int User[10];
 	int i;
+	int max;
 	for (i = 0; i < 10; i++) {
 		cin >> User[i];
+	        max = User[0];
 	}
-	int max = User[0];
 	for (i = 0; i < 10; i++) {
 		if (User[i] < max) {
 			max = User[i];
@@ -62,4 +63,4 @@ int main(){
 	}
 	cout << "smallest Number inserted: " << max;
 	return 0;
-}                                            
+}                                  
