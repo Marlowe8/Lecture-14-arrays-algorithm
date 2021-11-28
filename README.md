@@ -1,7 +1,7 @@
 # Lecture-14-arrays-algorithm
 
 
-//Write a program that fills an integer array of 1000 random numbers
+**//Write a program that fills an integer array of 1000 random numbers**
 #include <iostream>
 #include <array>
 #include <algorithm>
@@ -22,7 +22,7 @@ int main(){
 	return 0;
 }
                                              
-//Print largest number
+**//Print largest number**
 #include <iostream>
 #include <array>
 #include <algorithm>
@@ -42,7 +42,7 @@ int main(){
 	return 0;
 }
                                             
-//Print smallest number
+**//Print smallest number**
 #include <iostream>
 #include <array>
 #include <algorithm>
