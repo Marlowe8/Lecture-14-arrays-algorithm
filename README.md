@@ -34,7 +34,7 @@ int main(){
 	int max = User[0];
 	for (i = 0; i < 10; i++) {
 		cin >> User[i];
-		if (User[i] < max) {
+		if (User[i] > max) {
 			max = User[i];
 		}
 	}
